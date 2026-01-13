@@ -64,3 +64,6 @@ h1:first-child {
     text-align: center;
 }
 
+strong {
+    color: #e74c3c;
+}
