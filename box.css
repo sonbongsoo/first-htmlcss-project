@@ -4,9 +4,21 @@
     margin: 20px;
 }
 
-.box:hover {
-    opacity: 0.4;
+.box1:hover {
+    border: #30ad6f;
+    opacity: 0.7;
 }
+
+.box2:hover {
+    border: #c21e91;
+    opacity: 0.7;
+}
+
+.box3:hover {
+    border: #f5af81;
+    opacity: 0.7;
+}
+
 
 .box1 {
     border: 50px solid red;
