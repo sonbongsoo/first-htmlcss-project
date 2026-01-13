@@ -4,6 +4,10 @@
     margin: 20px;
 }
 
+.box:hover {
+    opacity: 0.4;
+}
+
 .box1 {
     border: 50px solid red;
 }
