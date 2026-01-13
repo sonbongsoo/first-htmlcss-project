@@ -1,0 +1,50 @@
+.box {
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box1 {
+    border: 50px solid red;
+}
+
+.box2 {
+    border: 50px solid green;
+}
+
+.box3 {
+    border: 50px solid blue;
+}
+
+h1 {
+    color: #9b59b6
+}
+
+p {
+    font-size: 16px;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+.sub-header {
+    color: #2980b9;
+}
+
+
+p::first-letter {
+    font-size: 200%;
+    color: #2980b9;
+}
+
+p::before {
+    content: "Topic: ";
+}
+
+body {
+    padding: 10%;
+}
+
+h1:first-child {
+    text-align: center;
+}
+
