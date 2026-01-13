@@ -5,17 +5,17 @@
 }
 
 .box1:hover {
-    border: #30ad6f;
+    border: 50px solid #30ad6f;
     opacity: 0.7;
 }
 
 .box2:hover {
-    border: #c21e91;
+    border: 50px solid #c21e91;
     opacity: 0.7;
 }
 
 .box3:hover {
-    border: #f5af81;
+    border: 50px solid #f5af81;
     opacity: 0.7;
 }
 
