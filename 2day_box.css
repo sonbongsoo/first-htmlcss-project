@@ -6,8 +6,8 @@
 }
 .green {
     border: 50px solid green;
-    --display:none;
-    visibility:hidden
+    display:none;
+    --visibility:hidden
 }
 .blue {
     border: 50px solid blue;
