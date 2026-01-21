@@ -1,0 +1,52 @@
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}   
+
+footer {
+    background-color: #121212;
+    color: white;
+    padding: 40px 0;
+}
+
+.first-line {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #919496;
+}
+
+
+.second-line  a {
+    text-decoration: none;
+    color: white;
+}
+
+.third-line {
+    display : none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:48rem) {
+    .second-line a {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .third-line  {
+        display: block;
+    }
+}
