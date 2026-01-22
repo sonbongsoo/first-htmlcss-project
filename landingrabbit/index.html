@@ -9,39 +9,61 @@
 </head>
   <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-  <!-- 폭을 984px로 제한하고 중앙에 배치하는 컨테이너 -->
-  <div class="container-fluid d-flex justify-content-between" style="max-width: 984px; margin: 0 auto;">
-    
-    <!-- 왼쪽 항목 (홈) -->
-    <a class="navbar-brand" href="#"><img class="cj-nav-logo" src="./image/carjangbu.png" alt="Car Jangbu Logo"></a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary col-6 justify-content-center mx-auto">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./image/logo.svg" class="img-fluid lr-nav-logo" alt="landing rabbit"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Use cases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
 
-    <!-- 오른쪽 항목 (메뉴들) -->
-    <div id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">메뉴 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">메뉴 2</a>
-        </li>
       </ul>
+      <div class="d-flex me-3" role="search">
+        <button class="btn btn-warning" type="submit">Free Trial</button>
+      </div>
+      <div>
+        <button class="btn btn-outline-warning" type="submit">Login</button>
+      </div>
     </div>
-
   </div>
-</nav>
+  </nav>
+
 
     <main>
-        <div class="container mt-5">
-            <div class="row">
+      <div class="container mt-5">
+          <div class="row">
             <div class="col text-center">
-                <h1>Welcome to Landing Rabbit</h1>
-                <p class="lead">Your one-stop solution for landing pages.</p>
-                <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+              <div>
+                <button type="button" class="btn btn-info rounded-3" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">B2B SaaS Website Builder</button>
+              </div>
+              <div class="display-1 main-big-title col-7  justify-content-center mx-auto mb-4">You’ve got ideas. We turn them into marketing pages</div>
+              <div class="lr-hero-subtitle col-5 justify-content-center mx-auto">Paste keywords, sales decks, call notes, and product specs. Any page ideas you have. LandingRabbit converts them into landing pages and websites..</p>
+              <a href="#" class="btn btn-warning btn-lg">Get Started</a>
             </div>
+
+            <div class="video-wrapper">
+<video autoplay="" muted="" loop="" playsinline="" class="ui:block ui:w-full ui:h-auto ui:object-cover"><source src="https://d2txn9w4uujjus.cloudfront.net/videos/019514e0-fe0a-7a1b-8ec6-a585eaf24e4d/3f5cd87c7df598db289c068be4116f7cc99b83af.mp4" type="video/mp4"></video>
             </div>
-        </div>
+          </div>
+      </div>
+
+
     </main>
 
     <footer>

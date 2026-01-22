@@ -1,9 +1,43 @@
-.cj-nav-logo {
-    height: 36px;
-} 
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.lr-nav-logo {
+  height: 36px;
 }
+
+
+.main-big-title {
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.lr-hero-subtitle {
+    color: hsla(0, 0%, 9.8039%, 0.8);;
+    font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+/* 비디오를 감싸는 컨테이너 설정 */
+.video-wrapper {
+    display: flex;          /* Flexbox 활성화 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center;     /* 세로 중앙 정렬 */
+    min-height: 100vh;       /* 화면 전체 높이를 기준으로 함 */
+    background-color: #f0f0f0; /* 배경색 (선택 사항) */
+}
+
+video {
+    max-width: 80%;          /* 반응형: 화면 너비의 최대 80% */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* 그림자 효과 (선택 사항) */
+    border-radius: 8px;      /* 모서리 곡률 (선택 사항) */
+}
+
