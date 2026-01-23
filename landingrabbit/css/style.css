@@ -37,7 +37,7 @@ p {
     /* 세로 중앙 정렬 */
     min-height: 100vh;
     /* 화면 전체 높이를 기준으로 함 */
-    background-color: #f0f0f0;
+    /*background-color: #f0f0f0;*/
     /* 배경색 (선택 사항) */
 }
 
@@ -109,7 +109,7 @@ h1 {
 
 /* 메인 컨테이너: 연보라색 배경과 중앙 정렬 */
 .solution-section {
-    background-color: #f5ebff;
+    /*background-color: #f5ebff;*/
     /* 이미지의 부드러운 연보라색 배경 */
     padding: 100px 20px;
     /* 위아래 넉넉한 여백 */
@@ -539,7 +539,7 @@ h1 {
 }
 
 .lr-bg-beige {
-    background-color: var(--lr-beige);
+    /*background-color: var(--lr-beige);*/
 }
 
 .lr-bg-lavender {
@@ -924,7 +924,7 @@ h1 {
 
 /* 기본 스타일 */
 .faq-section {
-    background-color: #f9f7f2;
+    /*background-color: #f9f7f2;*/
     /* 이미지의 베이지색 배경 */
     padding: 100px 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -1031,4 +1031,409 @@ h1 {
 .faq-toggle:checked~.faq-question .plus-icon {
     transform: rotate(45deg);
     /* + 가 x 로 변하는 효과 */
+}
+
+
+/* FOOTER 스타일 */
+/* 기본 배경 및 텍스트 설정 */
+.ft-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 20px 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 상단 CTA 섹션 스타일 */
+.ft-footer-cta {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 100px;
+}
+
+.ft-cta-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.ft-cta-desc {
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.ft-cta-button {
+    display: inline-block;
+    background-color: #f3a011;
+    color: #000;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.ft-cta-button:hover {
+    transform: translateY(-3px);
+}
+
+.ft-cta-sub {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* 구분선 */
+.ft-footer-divider {
+    border: 0;
+    border-top: 1px solid #222;
+    margin-bottom: 60px;
+}
+
+/* 하단 레이아웃 설정 */
+.ft-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.ft-footer-brand {
+    flex: 1;
+}
+
+.ft-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ft-logo-img {
+    width: 30px;
+    height: auto;
+}
+
+.ft-social-links {
+    margin-bottom: 40px;
+}
+
+.ft-social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.ft-social-links a:hover {
+    opacity: 1;
+}
+
+.ft-copyright {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* 링크 그룹 스타일 */
+.ft-footer-links {
+    display: flex;
+    gap: 60px;
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.ft-link-group h4 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.ft-link-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ft-link-group ul li {
+    margin-bottom: 12px;
+}
+
+.ft-link-group ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.ft-link-group ul li a:hover {
+    color: #fff;
+}
+
+/* 📱 모바일 반응형 (768px 이하) */
+@media (max-width: 768px) {
+    .ft-footer-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ft-footer-links {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: flex-start;
+    }
+
+    .ft-cta-title {
+        font-size: 1.8rem;
+    }
+
+    .ft-footer-cta {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+/* 섹션 기본 설정 */
+.bl-section {
+    background-color: #ffffff;
+    /* 흰색 바탕 */
+    padding: 100px 20px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+.bl-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* 메인 타이틀 */
+.bl-main-title {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 60px;
+    letter-spacing: -1.5px;
+}
+
+/* 리스트 및 아이템 레이아웃 */
+.bl-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bl-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.bl-item:hover {
+    opacity: 0.8;
+}
+
+/* 이미지 박스 */
+.bl-image-box {
+    flex: 0 0 350px;
+    /* 이미지 너비 고정 */
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+}
+
+.bl-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 텍스트 컨텐츠 */
+.bl-content {
+    flex: 1;
+}
+
+.bl-post-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.bl-post-date {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* 📱 모바일 반응형 대응 (768px 이하) */
+@media (max-width: 768px) {
+    .bl-main-title {
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+    }
+
+    .bl-item {
+        flex-direction: column;
+        /* 세로 배치 */
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .bl-image-box {
+        flex: 0 0 auto;
+        width: 100%;
+        /* 모바일에서는 이미지가 꽉 차게 */
+    }
+
+    .bl-post-title {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+/* 섹션 전체 배경 (이미지의 베이지톤 배경 재현) */
+.lg-section {
+    background-color: #f8ede3;
+    /* 이미지의 부드러운 배경색 */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 팝업 카드 스타일 */
+.lg-card {
+    background-color: #ffffff;
+    /* 흰색 바탕 */
+    width: 100%;
+    max-width: 450px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    /* 부드러운 팝업 그림자 */
+    text-align: center;
+}
+
+/* 로고 및 타이틀 */
+.lg-logo-box {
+    margin-bottom: 25px;
+}
+
+.lg-logo-img {
+    width: 60px;
+    height: auto;
+}
+
+.lg-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 35px;
+    letter-spacing: -0.5px;
+}
+
+/* 폼 요소 스타일 */
+.lg-form {
+    text-align: left;
+}
+
+.lg-input-group {
+    margin-bottom: 20px;
+}
+
+.lg-input-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.lg-input-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.lg-input-group input:focus {
+    outline: none;
+    border-color: #516a90;
+}
+
+/* 비밀번호 필드 특수 설정 (눈 아이콘 포함) */
+.lg-password-wrapper {
+    position: relative;
+}
+
+.lg-toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+}
+
+/* 로그인 버튼 (이미지의 남색 버튼) */
+.lg-submit-btn {
+    width: 100%;
+    background-color: #516a90;
+    /* 이미지의 버튼 색상 */
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.lg-submit-btn:hover {
+    background-color: #3e5271;
+}
+
+/* 하단 링크 */
+.lg-footer-links {
+    margin-top: 25px;
+}
+
+.lg-forgot-link {
+    font-size: 0.9rem;
+    color: #64748b;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.lg-forgot-link:hover {
+    color: #1e293b;
+}
+
+/* 📱 모바일 반응형 대응 */
+@media (max-width: 480px) {
+    .lg-card {
+        padding: 40px 25px;
+    }
+
+    .lg-title {
+        font-size: 1.5rem;
+    }
 }
